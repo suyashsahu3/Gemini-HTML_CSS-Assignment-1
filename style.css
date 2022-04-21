@@ -1,0 +1,43 @@
+#form{
+    padding: 20px;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    width: 40%;
+    background-color: rgb(226, 145, 70);
+}
+#head{
+    background-color: gray;
+    color: beige;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+h1{
+    text-align: center;
+    border-style: double;
+    border-width: 4px;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: left;
+    width: 200px;
+    vertical-align: top;
+
+}
+table,th,td {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td {
+    padding: 10px;
+  }
+  th {
+    text-align: left;
+  }
