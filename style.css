@@ -56,7 +56,7 @@ table,th,td {
   background-color: aqua;
 }
 .Dposition{
-    height: 100px;
+    height: auto;
     background-color: wheat;
     width: 100%;
     padding: 10px 60px;
@@ -68,7 +68,7 @@ div.relative {
     border: 2px solid #e6779abe;
     width: 50%;
   }
-  div.static {
+div.static {
     left: 30px;
     position: static;
     border: 2px solid #eaf464;
