@@ -50,3 +50,76 @@ table,th,td {
   .mt {
     margin-top: 40px;
   }
+
+/* Demo for display and visivility concepts */
+.Demo{
+  background-color: aqua;
+}
+.Dposition{
+    height: 100px;
+    background-color: wheat;
+    width: 100%;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+}
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 2px solid #e6779abe;
+    width: 50%;
+  }
+  div.static {
+    left: 30px;
+    position: static;
+    border: 2px solid #eaf464;
+    width: 50%;
+  }
+
+.float{
+    height: 150px;
+    background-color: lightgreen;
+    padding: 10px 40px;
+}
+
+.left{
+      float: left;
+      background-color: lightsalmon;
+      width: 100px;
+      height: 50px;
+      border-radius: 30%;
+      text-align: center;
+      padding: 10px;
+}
+.right{
+      float: right;
+      background-color: lightsalmon;
+      width: 100px;
+      height: 50px;
+      border-radius: 30%;
+      text-align: center;
+      padding: 10px;
+}
+
+.display{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: beige;
+      padding: 10px 40px;
+}
+.visibility{
+      height: auto;
+      margin-bottom: 40px;
+      background-color: wheat;
+      padding: 10px 40px;
+
+}
+h2.a {
+    visibility: visible;
+}
+  
+h2.b {
+  border-style: dotted;
+  border-color: black;
+  border-width: 4px;
+  visibility: hidden;
+}
